@@ -1,0 +1,360 @@
+
+ˆorg.apache.jsp.main.webapp.operaciones_jsp#_jspService(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)VS
+I/usr/src/.scannerwork/jsp/org/apache/jsp/main/webapp/operaciones_jsp.javaO O("33*–
+24k k( [
+Y
+k k( #
+%13javax.servlet.jsp.JspFactory"__id*"
+
+__unknown_file (
+""¢Ÿ
+k l( $
+%14javax.servlet.jsp.PageContext"µjavax.servlet.jsp.JspFactory#getPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)Ljavax/servlet/jsp/PageContext;*A
+
+__unknown_file (%
+#
+%13javax.servlet.jsp.JspFactory*J
+
+__unknown_file (.,
+*org.apache.jsp.main.webapp.operaciones_jsp*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest*P
+
+__unknown_file (4
+2
+response&javax.servlet.http.HttpServletResponse*"
+
+__unknown_file (
+""* 
+
+__unknown_file (2*!
+
+__unknown_file (2€@* 
+
+__unknown_file (22ygetPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)*
+23*•
+25j j(þû
+j j(*
+%12void"Ajavax.servlet.ServletResponse#setContentType(Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+response&javax.servlet.http.HttpServletResponse*)
+
+__unknown_file (
+	text/html2"setContentType(Ljava/lang/String;)*
+24*¥
+26_ _(4d
+b
+_ _(4,
+pageContextjavax.servlet.jsp.PageContext"__id*"
+
+__unknown_file (
+""Z
+X
+c c(+"
+outjavax.servlet.jsp.JspWriter"__id*"
+
+__unknown_file (
+""`
+^
+e e(1(
+	_jspx_outjavax.servlet.jsp.JspWriter"__id*"
+
+__unknown_file (
+""k
+i
+f f(<3
+_jspx_page_contextjavax.servlet.jsp.PageContext"__id*"
+
+__unknown_file (
+""*
+25*¢
+27Y Y(ÖÓ
+Y Y(>
+
+%9void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+response&javax.servlet.http.HttpServletResponse*%
+
+__unknown_file (	
+Allow*8
+
+__unknown_file (
+GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)B
+@
+Z Z(D
+
+%10int"__id*"
+
+__unknown_file (
+""àÝ
+	Z Z(ˆ
+%11void"Fjavax.servlet.http.HttpServletResponse#sendError(ILjava/lang/String;)V*P
+
+__unknown_file (4
+2
+response&javax.servlet.http.HttpServletResponse*(
+
+__unknown_file (
+
+
+%10int*_
+
+__unknown_file (CA
+?JSPs only permit GET, POST or HEAD. Jasper also permits OPTIONS2sendError(ILjava/lang/String;)"
+[ [(
+""*Ò	
+16w w(	¼	¹	
+	w w(…
+%22void")java.io.Writer#write(Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+outjavax.servlet.jsp.JspWriter*–
+
+__unknown_file (ùö
+ó                <h2>Mi Carro de Compras</h2>\r\n                <div id=\"tablaCarro\">\r\n                    <table class=\"tablaExistentes\">\r\n                        <tbody>\r\n                            <tr>\r\n                                <td>Titulo</td>\r\n                                <td>Cantidad</td>\r\n                                <td>Valor Unidad</td>\r\n                                <td>Valor Total</td>\r\n                            </tr>\r\n                        </tbody>\r\n                    </table>\r\n                </div>    \r\n                <br/>\r\n                <br/>\r\n                <div align=\"center\">\r\n                    Grand Total: <input type=\"text\" id=\"total\" value=\"0\"/> \r\n                </div>\r\n            </div>\r\n            <div id=\"powered\">\r\n                <p><a href=\"http://www.qvision.us/index.php/\">Q-Vision Technologies</a></p>\r\n            </div>            \r\n        </div>        \r\n    </body>\r\n</html>2write(Ljava/lang/String;)*
+1*ç
+28XJ X(PÌÉ
+XJ X(e
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*$
+
+__unknown_file (
+HEAD*>
+
+__unknown_file ("
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+26
+27*³
+
+17v v(	œ
+™
+
+	v v(å
+%21void")java.io.Writer#write(Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+outjavax.servlet.jsp.JspWriter*ö
+
+__unknown_file (ÙÖ
+Ó                            </tr>\r\n                            <tr>\r\n                                <td>Ruby for Rails</td><td>12</td><td>USD. 20</td><td><input type=\"text\" name=\"q\" value=\"0\"></td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Python Cookbook</td><td>7</td><td>USD. 35</td><td><input type=\"text\" name=\"q\" value=\"0\"></td>\r\n                            </tr>\r\n                        </tbody>\r\n                    </table>\r\n                    <br/>\r\n                    <div align=\"center\">\r\n                        <input type=\"button\" class=\"btnOperaciones\" value=\"Agregar\" onclick=\"addToCart()\"/> \r\n                        <input type=\"button\" class=\"btnOperaciones\" value=\"Limpiar\" onclick=\"clearCart()\"/>\r\n                        <input type=\"button\" class=\"btnOperaciones\" value=\"Salir\" onclick=\"location.href = 'index.jsp'\"/>\r\n                    </div>\r\n                </form>                \r\n            </div>\r\n            <div id=\"miCarro\">\r\n2write(Ljava/lang/String;)*
+16*ç
+29X* X(0ÌÉ
+X* X(E
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*$
+
+__unknown_file (
+POST*>
+
+__unknown_file ("
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+26
+28*°
+
+18u u(	™
+–
+
+	u u(â
+%20void")java.io.Writer#write(Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+outjavax.servlet.jsp.JspWriter*ó
+
+__unknown_file (ÖÓ
+Ð        <script>\r\n                $(document).ready(function(){ \r\n                $(\"#submit1\").hover(\r\n                        function() {\r\n                        $(this).animate({\"opacity\": \"0\"}, \"slow\");\r\n                        },\r\n                        function() {\r\n                        $(this).animate({\"opacity\": \"1\"}, \"slow\");\r\n                        });\r\n                });\r\n        </script>	-->\r\n    </head>\r\n    <body>\r\n        <div id=\"wrapperOperaciones\">                     \r\n            <div id=\"existentes\">\r\n                <h2>Libros Existentes</h2>\r\n                <form action=\"#\" method=\"post\">\r\n                    <table class=\"tablaExistentes\">\r\n                        <tbody><tr>\r\n                                <td>Titulo</td><td>En stock</td><td>Valor</td><td>Agregar Cantidad al Carro</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>Core Java</td><td>5</td><td>USD. 30</td><td><input type=\"text\" name=\"q\" value=\"0\"></td>\r\n2write(Ljava/lang/String;)*
+17*…
+19q q( x
+v
+q q( "
+outjavax.servlet.jsp.JspWriter"__id*@
+
+__unknown_file ($
+"
+%18javax.servlet.jsp.JspWriter~
+|
+r r((
+	_jspx_outjavax.servlet.jsp.JspWriter"__id*@
+
+__unknown_file ($
+"
+outjavax.servlet.jsp.JspWriterô
+ñ
+
+,
+$/usr/src/main/webapp/operaciones.jsp W(
+%19void")java.io.Writer#write(Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+outjavax.servlet.jsp.JspWriter*«	
+
+__unknown_file (Ž	‹	
+ˆ	<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n    <head>\r\n        <!-- General meta information -->\r\n        <title>Operaciones</title>\r\n        <meta name=\"keywords\" content=\"\" />\r\n        <meta name=\"description\" content=\"\" />\r\n        <meta name=\"robots\" content=\"index, follow\" />\r\n        <meta charset=\"utf-8\" />\r\n        <!-- // General meta information -->\r\n        <!-- Load Javascript -->\r\n        <script type=\"text/javascript\" src=\"./js/jquery.js\"></script>\r\n        <script type=\"text/javascript\" src=\"./js/jquery.query-2.1.7.js\"></script>\r\n        <script type=\"text/javascript\" src=\"./js/rainbows.js\"></script>\r\n        <script type=\"text/javascript\" src=\"./js/operaciones.js\"></script>\r\n        <!-- // Load Javascipt -->\r\n        <!-- Load stylesheets -->\r\n        <link type=\"text/css\" rel=\"stylesheet\" href=\"css/style.css\" media=\"screen\" />\r\n        <!-- // Load stylesheets -->\r\n\r\n        <!--Esta funcion permite opacar el boton con un hover\r\n2write(Ljava/lang/String;)*
+18*(
+0 "!
+
+‰ ‰(
+implicit return*°
+1
+‡ ‡(]
+[
+
+‡ ‡(#
+%33javax.servlet.jsp.JspFactory"__id*"
+
+__unknown_file (
+""º·
+
+‡ ‡(9
+%34void"Qjavax.servlet.jsp.JspFactory#releasePageContext(Ljavax/servlet/jsp/PageContext;)V*A
+
+__unknown_file (%
+#
+%33javax.servlet.jsp.JspFactory*Q
+
+__unknown_file (5
+3
+_jspx_page_contextjavax.servlet.jsp.PageContext23releasePageContext(Ljavax/servlet/jsp/PageContext;)*
+0*æ
+30X X(ËÈ
+X X(%
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*#
+
+__unknown_file (
+GET*>
+
+__unknown_file ("
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+26
+29*û
+31U U(ÖÓ
+U U(>
+
+%5void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+response&javax.servlet.http.HttpServletResponse*%
+
+__unknown_file (	
+Allow*8
+
+__unknown_file (
+GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)"
+V V(
+""*â
+20p p((ËÈ
+q q( "
+%18javax.servlet.jsp.JspWriter"Bjavax.servlet.jsp.JspContext#getOut()Ljavax/servlet/jsp/JspWriter;*J
+
+__unknown_file (.
+,
+pageContextjavax.servlet.jsp.PageContext2getOut()*
+19* 
+32S, S(3ÇÄ
+S, S(?
+%3java.lang.String"Cjavax.servlet.http.HttpServletRequest#getMethod()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest2getMethod()j
+h
+S S(@ 
+_jspx_methodjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.StringÏÌ
+T
+ T((
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*'
+
+__unknown_file (	
+OPTIONS*>
+
+__unknown_file ("
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+30
+31*ñ
+21o o(-Ú×
+p p((%
+%17javax.servlet.http.HttpSession"Jjavax.servlet.jsp.PageContext#getSession()Ljavax/servlet/http/HttpSession;*J
+
+__unknown_file (.
+,
+pageContextjavax.servlet.jsp.PageContext2getSession()*
+20*È
+33R	 R(Z
+X
+R	 R(+"
+%0javax.servlet.DispatcherType"__id*"
+
+__unknown_file (
+""æã
+R3 R(N"
+%1javax.servlet.DispatcherType"Njavax.servlet.ServletRequest#getDispatcherType()Ljavax/servlet/DispatcherType;*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest2getDispatcherType()èå
+R	 R(O
+%2boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*@
+
+__unknown_file ($
+"
+%0javax.servlet.DispatcherType*@
+
+__unknown_file ($
+"
+%1javax.servlet.DispatcherType2equals(Ljava/lang/Object;)*
+26
+32*÷
+22n n(3àÝ
+o o(-"
+%16javax.servlet.ServletConfig"Mjavax.servlet.jsp.PageContext#getServletConfig()Ljavax/servlet/ServletConfig;*J
+
+__unknown_file (.
+,
+pageContextjavax.servlet.jsp.PageContext2getServletConfig()*
+21*š
+23k l( …
+‚
+k l( ,
+pageContextjavax.servlet.jsp.PageContext"__id*B
+
+__unknown_file (&
+$
+%14javax.servlet.jsp.PageContext”
+‘
+m m(&3
+_jspx_page_contextjavax.servlet.jsp.PageContext"__id*J
+
+__unknown_file (.
+,
+pageContextjavax.servlet.jsp.PageContextäá
+n n(3#
+%15javax.servlet.ServletContext"Ojavax.servlet.jsp.PageContext#getServletContext()Ljavax/servlet/ServletContext;*J
+
+__unknown_file (.
+,
+pageContextjavax.servlet.jsp.PageContext2getServletContext()*
+22:*
+
+__unknown_file (
+%jsp_context:<
+O O(N0
+request%javax.servlet.http.HttpServletRequest:?
+	OO O(„2
+response&javax.servlet.http.HttpServletResponseB.,
+*org.apache.jsp.main.webapp.operaciones_jspH

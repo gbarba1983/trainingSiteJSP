@@ -1,0 +1,86 @@
+
+\org.apache.jsp.main.webapp.index_jsp#_jsp_getExpressionFactory()Ljavax/el/ExpressionFactory;M
+C/usr/src/.scannerwork/jsp/org/apache/jsp/main/webapp/index_jsp.java3$ 3(="5* 
+27" 7(.Z
+X
+7" 7(."
+%4javax.servlet.jsp.JspFactory"__id*"
+
+__unknown_file (
+""³°
+7" 7(o
+%5"~javax.servlet.jsp.JspFactory#getJspApplicationContext(Ljavax/servlet/ServletContext;)Ljavax/servlet/jsp/JspApplicationContext;*@
+
+__unknown_file ($
+"
+%4javax.servlet.jsp.JspFactory*"
+
+__unknown_file (
+""28getJspApplicationContext(Ljavax/servlet/ServletContext;)z
+x
+	7
+ 7(†A&
+$org.apache.jsp.main.webapp.index_jsp"
+_el_expressionfactory"__id*"
+
+__unknown_file (
+""*
+1*à
+36 6(!–
+“
+6 6(! 
+%2javax.el.ExpressionFactory"__id*_
+
+__unknown_file (C*A&
+$org.apache.jsp.main.webapp.index_jsp"
+_el_expressionfactory¯
+¬
+6 6()
+%3boolean"	__compare*"
+
+__unknown_file (
+==*>
+
+__unknown_file ("
+ 
+%2javax.el.ExpressionFactory*"
+
+__unknown_file (
+""*
+2
+1*à
+54 4(–
+“
+4 4( 
+%0javax.el.ExpressionFactory"__id*_
+
+__unknown_file (C*A&
+$org.apache.jsp.main.webapp.index_jsp"
+_el_expressionfactory¯
+¬
+4 4(%
+%1boolean"	__compare*"
+
+__unknown_file (
+==*>
+
+__unknown_file ("
+ 
+%0javax.el.ExpressionFactory*"
+
+__unknown_file (
+""*
+3
+1*Ö
+1; ;( –
+“
+; ;(  
+%6javax.el.ExpressionFactory"__id*_
+
+__unknown_file (C*A&
+$org.apache.jsp.main.webapp.index_jsp"
+_el_expressionfactory".
+; ;(!"
+ 
+%6javax.el.ExpressionFactoryB(&
+$org.apache.jsp.main.webapp.index_jspH

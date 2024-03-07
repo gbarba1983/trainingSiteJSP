@@ -1,0 +1,10 @@
+com.qvision.trainingsite.modelos.ValidaUsuarioTest#testIniciaSesion()V
+com.qvision.trainingsite.modelos.ValidaUsuario#instance-init#
+com.qvision.trainingsite.modelos.ValidaUsuario#<init>()V
+com.qvision.trainingsite.clases.Usuarios#instance-init#
+com.qvision.trainingsite.clases.Usuarios#<init>()V
+==
+iniciaSesion com.qvision.trainingsite.modelos.ValidaUsuario#iniciaSesion(Lcom/qvision/trainingsite/clases/Usuarios;)Z
+setPassUsu com.qvision.trainingsite.clases.Usuarios#setPassUsu(Ljava/lang/String;)V
+setNomUsu com.qvision.trainingsite.clases.Usuarios#setNomUsu(Ljava/lang/String;)V
+println java.io.PrintStream#println(Ljava/lang/String;)V

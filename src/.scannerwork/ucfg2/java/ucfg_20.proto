@@ -1,0 +1,45 @@
+
+hcom.qvision.trainingsite.modelos.ValidaUsuario#iniciaSesion(Lcom/qvision/trainingsite/clases/Usuarios;)ZP
+F/usr/src/main/java/com/qvision/trainingsite/modelos/ValidaUsuario.java ("4*­
+3E (NÑÎ
+E ([
+%2java.lang.String"Gcom.qvision.trainingsite.clases.Usuarios#getPassUsu()Ljava/lang/String;*S
+
+__unknown_file (7
+5
+	unUsuario(com.qvision.trainingsite.clases.Usuarios2getPassUsu()ÄÁ
+E (l
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%2java.lang.String*&
+
+__unknown_file (
+
+secret2equals(Ljava/lang/Object;)*
+1*½
+4 (ÏÌ
+ (!
+%0java.lang.String"Fcom.qvision.trainingsite.clases.Usuarios#getNomUsu()Ljava/lang/String;*S
+
+__unknown_file (7
+5
+	unUsuario(com.qvision.trainingsite.clases.Usuarios2getNomUsu()ÓÐ
+ (A
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%0java.lang.String*5
+
+__unknown_file (
+qmatic@qvision.com.co2equals(Ljava/lang/Object;)*
+3
+1*!
+1 ("
+ (
+"":A
+  (25
+	unUsuario(com.qvision.trainingsite.clases.UsuariosB20
+.com.qvision.trainingsite.modelos.ValidaUsuarioHX

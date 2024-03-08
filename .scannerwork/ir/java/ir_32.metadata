@@ -1,0 +1,6 @@
+com.qvision.trainingsite.clases.UsuariosTest#testGetNomUsu()V
+com.qvision.trainingsite.clases.Usuarios#instance-init#
+com.qvision.trainingsite.clases.Usuarios#<init>()V
+==
+getNomUsu com.qvision.trainingsite.clases.Usuarios#getNomUsu()Ljava/lang/String;
+println java.io.PrintStream#println(Ljava/lang/String;)V

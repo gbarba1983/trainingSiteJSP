@@ -1,0 +1,5 @@
+com.qvision.trainingsite.modelos.ValidaUsuario#iniciaSesion(Lcom/qvision/trainingsite/clases/Usuarios;)Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+getNomUsu com.qvision.trainingsite.clases.Usuarios#getNomUsu()Ljava/lang/String;
+getPassUsu com.qvision.trainingsite.clases.Usuarios#getPassUsu()Ljava/lang/String;

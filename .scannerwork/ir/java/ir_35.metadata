@@ -1,0 +1,6 @@
+com.qvision.trainingsite.clases.UsuariosTest#testSetPassUsu()V
+com.qvision.trainingsite.clases.Usuarios#instance-init#
+com.qvision.trainingsite.clases.Usuarios#<init>()V
+==
+setPassUsu com.qvision.trainingsite.clases.Usuarios#setPassUsu(Ljava/lang/String;)V
+println java.io.PrintStream#println(Ljava/lang/String;)V
